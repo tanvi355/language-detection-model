@@ -1,19 +1,25 @@
-# project
+# Mini-project for college
 
-### To-Do/Problems:
+# Language identification using machine learning
 
-1. can't load the entire dataset. This model was trained and tested on only 5000 records.
-In these 5000 records, all the languages do not have equal no. of entries.
+This repository contains the machine learning model for detecting the language of the given text.
 
-2. there are 22 languages in the dataset. we need to decide if we want to take all of them or some selected ones.
+The dataset is taken from [here](https://www.kaggle.com/zarajamshaid/language-identification-datasst).
 
-3. check if all languages are predicted correctly or not.
+We have used scikit learn library to build the models, train it and test it along with numpy and pandas. 
 
-4. more data cleaning needs to be done, like removing punctuations, special symbols (@, #, $, etc.), etc.
+Steps for making the model:
 
-5. write a function for 3.
+1. Importing the required libraries.
 
-6. trying different algorithms and compare their results to see which suits our case the best.
-see  this: https://towardsdatascience.com/how-to-choose-the-right-machine-learning-algorithm-for-your-application-1e36c32400b9
+2. Loading the dataset.
 
-7. any further improvements/features, etc.
+3. Data preprocessing - checking for nulls, duplicates, transforming text to lower case, etc.
+
+4. Splitting into training and testing data
+
+5. Training the model on train data.
+
+6. Testing the model on test data.
+
+7. Evaluating the model.
