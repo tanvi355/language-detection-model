@@ -2,6 +2,9 @@
 
 # Language identification using machine learning
 
+<b>Demo video:</b> [Click here](https://youtu.be/SVknwyVn7cI)
+
+
 This repository contains the machine learning model for detecting the language of the given text.
 
 The dataset is taken from [here](https://www.kaggle.com/zarajamshaid/language-identification-datasst).
